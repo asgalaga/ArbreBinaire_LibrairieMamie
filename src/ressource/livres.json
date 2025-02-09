@@ -1,0 +1,362 @@
+[
+    {
+        "isbn": "978-1-234567-01-1",
+        "titre": "L'Ombre du Vent",
+        "auteur": "Carlos Ruiz Zafón",
+        "categorie": "Roman",
+        "prix": 15.99,
+        "datePublication": "2001-06-01",
+        "quantite": 10
+    },
+    {
+        "isbn": "978-1-234567-02-2",
+        "titre": "Le Jeu de l'Ange",
+        "auteur": "Carlos Ruiz Zafón",
+        "categorie": "Roman",
+        "prix": 18.5,
+        "datePublication": "2008-04-17",
+        "quantite": 5
+    },
+    {
+        "isbn": "978-1-234567-03-3",
+        "titre": "Inferno",
+        "auteur": "Dan Brown",
+        "categorie": "Thriller",
+        "prix": 22.99,
+        "datePublication": "2013-05-14",
+        "quantite": 8
+    },
+    {
+        "isbn": "978-1-234567-04-4",
+        "titre": "Da Vinci Code",
+        "auteur": "Dan Brown",
+        "categorie": "Thriller",
+        "prix": 19.99,
+        "datePublication": "2003-03-18",
+        "quantite": 12
+    },
+    {
+        "isbn": "978-1-234567-05-5",
+        "titre": "Les Misérables",
+        "auteur": "Victor Hugo",
+        "categorie": "Classique",
+        "prix": 12.5,
+        "datePublication": "1862-01-01",
+        "quantite": 7
+    },
+    {
+        "isbn": "978-1-234567-06-6",
+        "titre": "Notre-Dame de Paris",
+        "auteur": "Victor Hugo",
+        "categorie": "Classique",
+        "prix": 14.75,
+        "datePublication": "1831-03-16",
+        "quantite": 6
+    },
+    {
+        "isbn": "978-1-234567-07-7",
+        "titre": "Harry Potter à l'école des sorciers",
+        "auteur": "J.K. Rowling",
+        "categorie": "Fantasy",
+        "prix": 10.99,
+        "datePublication": "1997-06-26",
+        "quantite": 20
+    },
+    {
+        "isbn": "978-1-234567-08-8",
+        "titre": "Harry Potter et la chambre des secrets",
+        "auteur": "J.K. Rowling",
+        "categorie": "Fantasy",
+        "prix": 11.5,
+        "datePublication": "1998-07-02",
+        "quantite": 18
+    },
+    {
+        "isbn": "978-1-234567-09-9",
+        "titre": "Le Seigneur des Anneaux",
+        "auteur": "J.R.R. Tolkien",
+        "categorie": "Fantasy",
+        "prix": 25.99,
+        "datePublication": "1954-07-29",
+        "quantite": 15
+    },
+    {
+        "isbn": "978-1-234567-10-0",
+        "titre": "Bilbo le Hobbit",
+        "auteur": "J.R.R. Tolkien",
+        "categorie": "Fantasy",
+        "prix": 13.99,
+        "datePublication": "1937-09-21",
+        "quantite": 10
+    },
+    {
+        "isbn": "978-1-234567-11-X",
+        "titre": "Livre Aléatoire 11",
+        "auteur": "J.R.R. Tolkien",
+        "categorie": "Fantasy",
+        "prix": 26.97,
+        "datePublication": "1977-01-15",
+        "quantite": 13
+    },
+    {
+        "isbn": "978-1-234567-12-X",
+        "titre": "Livre Aléatoire 12",
+        "auteur": "Stephen King",
+        "categorie": "Science-fiction",
+        "prix": 17.03,
+        "datePublication": "1906-03-23",
+        "quantite": 12
+    },
+    {
+        "isbn": "978-1-234567-13-X",
+        "titre": "Livre Aléatoire 13",
+        "auteur": "Dan Brown",
+        "categorie": "Horreur",
+        "prix": 29.52,
+        "datePublication": "1948-02-23",
+        "quantite": 3
+    },
+    {
+        "isbn": "978-1-234567-14-X",
+        "titre": "Livre Aléatoire 14",
+        "auteur": "Aldous Huxley",
+        "categorie": "Cyberpunk",
+        "prix": 10.27,
+        "datePublication": "1915-02-23",
+        "quantite": 12
+    },
+    {
+        "isbn": "978-1-234567-15-X",
+        "titre": "Livre Aléatoire 15",
+        "auteur": "George Orwell",
+        "categorie": "Thriller",
+        "prix": 28.49,
+        "datePublication": "1963-10-14",
+        "quantite": 18
+    },
+    {
+        "isbn": "978-1-234567-16-X",
+        "titre": "Livre Aléatoire 16",
+        "auteur": "Aldous Huxley",
+        "categorie": "Essai",
+        "prix": 11.75,
+        "datePublication": "2008-04-11",
+        "quantite": 13
+    },
+    {
+        "isbn": "978-1-234567-17-X",
+        "titre": "Livre Aléatoire 17",
+        "auteur": "J.K. Rowling",
+        "categorie": "Philosophique",
+        "prix": 27.44,
+        "datePublication": "1926-08-03",
+        "quantite": 0
+    },
+    {
+        "isbn": "978-1-234567-18-X",
+        "titre": "Livre Aléatoire 18",
+        "auteur": "Orson Scott Card",
+        "categorie": "Fantasy",
+        "prix": 29.83,
+        "datePublication": "1991-01-20",
+        "quantite": 16
+    },
+    {
+        "isbn": "978-1-234567-19-X",
+        "titre": "Livre Aléatoire 19",
+        "auteur": "Isaac Asimov",
+        "categorie": "Science-fiction",
+        "prix": 14.67,
+        "datePublication": "1982-05-10",
+        "quantite": 18
+    },
+    {
+        "isbn": "978-1-234567-20-X",
+        "titre": "Livre Aléatoire 20",
+        "auteur": "Aldous Huxley",
+        "categorie": "Classique",
+        "prix": 21.79,
+        "datePublication": "1903-10-26",
+        "quantite": 11
+    },
+    {
+        "isbn": "978-1-234567-21-X",
+        "titre": "Livre Aléatoire 21",
+        "auteur": "Victor Hugo",
+        "categorie": "Fantasy",
+        "prix": 19.5,
+        "datePublication": "2004-03-07",
+        "quantite": 7
+    },
+    {
+        "isbn": "978-1-234567-22-X",
+        "titre": "Livre Aléatoire 22",
+        "auteur": "Aldous Huxley",
+        "categorie": "Horreur",
+        "prix": 15.01,
+        "datePublication": "1958-10-05",
+        "quantite": 12
+    },
+    {
+        "isbn": "978-1-234567-23-X",
+        "titre": "Livre Aléatoire 23",
+        "auteur": "Victor Hugo",
+        "categorie": "Essai",
+        "prix": 20.4,
+        "datePublication": "1989-11-21",
+        "quantite": 10
+    },
+    {
+        "isbn": "978-1-234567-24-X",
+        "titre": "Livre Aléatoire 24",
+        "auteur": "George Orwell",
+        "categorie": "Classique",
+        "prix": 18.69,
+        "datePublication": "1944-07-17",
+        "quantite": 4
+    },
+    {
+        "isbn": "978-1-234567-25-X",
+        "titre": "Livre Aléatoire 25",
+        "auteur": "Dan Brown",
+        "categorie": "Horreur",
+        "prix": 16.27,
+        "datePublication": "1927-01-26",
+        "quantite": 20
+    },
+    {
+        "isbn": "978-1-234567-26-X",
+        "titre": "Livre Aléatoire 26",
+        "auteur": "William Gibson",
+        "categorie": "Philosophique",
+        "prix": 11.29,
+        "datePublication": "1925-10-16",
+        "quantite": 2
+    },
+    {
+        "isbn": "978-1-234567-27-X",
+        "titre": "Livre Aléatoire 27",
+        "auteur": "Margaret Atwood",
+        "categorie": "Classique",
+        "prix": 19.91,
+        "datePublication": "1940-07-28",
+        "quantite": 14
+    },
+    {
+        "isbn": "978-1-234567-28-X",
+        "titre": "Livre Aléatoire 28",
+        "auteur": "Aldous Huxley",
+        "categorie": "Cyberpunk",
+        "prix": 27.8,
+        "datePublication": "1947-03-11",
+        "quantite": 16
+    },
+    {
+        "isbn": "978-1-234567-29-X",
+        "titre": "Livre Aléatoire 29",
+        "auteur": "Dan Brown",
+        "categorie": "Thriller",
+        "prix": 17.99,
+        "datePublication": "1911-06-01",
+        "quantite": 14
+    },
+    {
+        "isbn": "978-1-234567-30-X",
+        "titre": "Livre Aléatoire 30",
+        "auteur": "Carlos Ruiz Zafón",
+        "categorie": "Cyberpunk",
+        "prix": 20.95,
+        "datePublication": "1947-12-14",
+        "quantite": 7
+    },
+    {
+        "isbn": "978-1-234567-31-X",
+        "titre": "Livre Aléatoire 31",
+        "auteur": "Orson Scott Card",
+        "categorie": "Horreur",
+        "prix": 29.2,
+        "datePublication": "1989-06-10",
+        "quantite": 17
+    },
+    {
+        "isbn": "978-1-234567-32-X",
+        "titre": "Livre Aléatoire 32",
+        "auteur": "Alain Damasio",
+        "categorie": "Fantasy",
+        "prix": 26.3,
+        "datePublication": "2016-08-05",
+        "quantite": 4
+    },
+    {
+        "isbn": "978-1-234567-33-X",
+        "titre": "Livre Aléatoire 33",
+        "auteur": "Carlos Ruiz Zafón",
+        "categorie": "Classique",
+        "prix": 15.25,
+        "datePublication": "2022-01-17",
+        "quantite": 2
+    },
+    {
+        "isbn": "978-1-234567-34-X",
+        "titre": "Livre Aléatoire 34",
+        "auteur": "Paulo Coelho",
+        "categorie": "Horreur",
+        "prix": 18.66,
+        "datePublication": "1925-08-23",
+        "quantite": 9
+    },
+    {
+        "isbn": "978-1-234567-35-X",
+        "titre": "Livre Aléatoire 35",
+        "auteur": "J.K. Rowling",
+        "categorie": "Horreur",
+        "prix": 10.69,
+        "datePublication": "2009-01-03",
+        "quantite": 0
+    },
+    {
+        "isbn": "978-1-234567-36-X",
+        "titre": "Livre Aléatoire 36",
+        "auteur": "Dan Brown",
+        "categorie": "Philosophique",
+        "prix": 10.6,
+        "datePublication": "1996-10-24",
+        "quantite": 12
+    },
+    {
+        "isbn": "978-1-234567-37-X",
+        "titre": "Livre Aléatoire 37",
+        "auteur": "William Gibson",
+        "categorie": "Dystopie",
+        "prix": 15.13,
+        "datePublication": "1937-02-11",
+        "quantite": 5
+    },
+    {
+        "isbn": "978-1-234567-38-X",
+        "titre": "Livre Aléatoire 38",
+        "auteur": "William Gibson",
+        "categorie": "Thriller",
+        "prix": 19.9,
+        "datePublication": "1906-02-23",
+        "quantite": 12
+    },
+    {
+        "isbn": "978-1-234567-39-X",
+        "titre": "Livre Aléatoire 39",
+        "auteur": "J.R.R. Tolkien",
+        "categorie": "Fantasy",
+        "prix": 12.8,
+        "datePublication": "1989-02-02",
+        "quantite": 3
+    },
+    {
+        "isbn": "978-1-234567-40-X",
+        "titre": "Livre Aléatoire 40",
+        "auteur": "J.K. Rowling",
+        "categorie": "Cyberpunk",
+        "prix": 18.98,
+        "datePublication": "1993-11-05",
+        "quantite": 1
+    }
+]
