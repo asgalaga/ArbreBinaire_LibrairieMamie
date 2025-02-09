@@ -115,6 +115,19 @@ public class InventaireController {
     }
 
     /**
+     * Recherche les livres d'un auteur spécifique et les trie par date de publication (du plus récent au plus ancien).
+     */
+    public List<Livre> getLivresParAuteurEtDate(String auteur) {
+        List<Livre> resultat = new ArrayList<>();
+        arbreLivres.collecterNoeuds(arbreLivres.getRoot(), resultat);
+        return resultat.stream()
+                .filter(l -> normaliserTexte(l.getAuteur()).contains(normaliserTexte(auteur)))
+                .sorted((l1, l2) -> l2.getDatePublication().compareToIgnoreCase(l1.getDatePublication()))
+                .collect(Collectors.toList());
+    }
+
+
+    /**
      * Affiche les livres triés par catégorie.
      */
     public void afficherLivresParCategorie() {

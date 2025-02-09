@@ -34,8 +34,8 @@ public class LibrairieGUI extends JFrame {
         topPanel.setLayout(new FlowLayout());
 
         searchType = new JComboBox<>(new String[]{
-                "Tous les livres", "Par Catégorie", "Par Auteur", "Par Titre", "Par Auteur et début de Titre", "Par Année de publication", "Par Prix",
-                "Livres en rupture de stock"
+                "Tous les livres", "Par Catégorie", "Par Auteur", "Par Titre", "Par Auteur et début de Titre", "Par Auteur et Date de publication",
+                "Par Année de publication", "Par Prix", "Livres en rupture de stock"
         });
 
         searchField = new JTextField(15);
@@ -46,6 +46,12 @@ public class LibrairieGUI extends JFrame {
         minPriceField = new JTextField(7);
         maxPriceField = new JTextField(7);
         priceSeparator = new JLabel("à");
+
+        // Déclenche la recherche en appuyant sur ENTER dans les champs de recherche
+        searchField.addActionListener(e -> performSearch());
+        authorField.addActionListener(e -> performSearch());
+        minPriceField.addActionListener(e -> performSearch());
+        maxPriceField.addActionListener(e -> performSearch());
 
         // Ajouter tous les éléments au panneau supérieur
         topPanel.add(new JLabel("Rechercher :"));
@@ -118,7 +124,9 @@ public class LibrairieGUI extends JFrame {
                 resultats = controller.getTousLesLivres(); // Affiche tout
             } else if (selectedOption.equals("Livres en rupture de stock")) {
                 resultats = controller.getLivresRuptureStock();
-            } else if (selectedOption.equals("Par Prix")) {
+            }else if (selectedOption.equals("Par Auteur et Date de publication")) {
+                resultats = controller.getLivresParAuteurEtDate(query);
+            }else if (selectedOption.equals("Par Prix")) {
                 try {
                     String minText = minPriceField.getText().trim();
                     String maxText = maxPriceField.getText().trim();
